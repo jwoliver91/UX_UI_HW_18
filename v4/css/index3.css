@@ -7,9 +7,13 @@ nav {
     padding: 1%;
     background-image: linear-gradient(grey, white);
 }
-ul{
+.nav{
     width: 100%;
-    margin-left: auto;
+    margin-left: 55%;
+}
+.footerNav{
+    width: 100%;
+    margin-left: 55%;  
 }
 h1{
     font-family: 'Nunito', sans-serif;
@@ -18,7 +22,12 @@ h1{
 }
 h2 {
     font-family: 'Nunito', sans-serif;
-    font-size: 50px
+    font-size: 50px;
+    max-width:100%;
+}
+h3{
+    font-family:'Nunito', sans-serif;
+    font-size: 45px;
 }
 p{
     font-family: 'Lato', sans-serif;
@@ -30,36 +39,22 @@ li{
     text-transform: uppercase;
     font-weight: 900;
 }
-#heroGrid{
-    margin: 0 px 5%;
-    display: grid;
-    min-height: 500px;
-    height: 70vh;
-    grid-template-rows: 75% 25%;
-    grid-template-columns: 75% 25%;
-    grid-template-areas: images content about-me about-me;
-}
-#images{
-    grid-area: 1 5 span 3 span 3;
-    justify-content: flex-end;
+#Hero{
+    max-width:100%;
+    display: flex;
 }
 #content{
-    grid-area: 1 1 span 3 span 3;
-    justify-content: flex-start;
+    max-width: 100%;
+    justify-content: flex-end;
 }
 #about-me{
-    grid-area: 5 1 span 3 span 3;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-}
-.heroImg{
-    height: 600px;
-    padding: 25px;
+    max-width: 100%;
 }
 .images{
     margin: 0;
-   flex-direction: row;
-   justify-content: flex-end; 
+   justify-content: flex-start; 
 }
     
 .content{
@@ -73,11 +68,41 @@ li{
     justify-content: flex-start;
     padding: 20%;
 }
+.myProcess{
+    margin:auto;
+
+}
+.process{
+    max-width: 80%;
+    margin: auto;
+}
+.blueBlob{
+    margin-left: -5%;
+}
+.Skills{
+    max-width: 100%;
+}
+.mySkills{
+    margin-right: 1.90%;
+}
+.toolList{
+    margin-left: 7%;
+}
+.pinkBlob{
+    margin-left: 75%;
+}
+.rectangle2{
+    margin-left: 80%;
+}
+.rectangle3{
+    margin-left:-5%;
+}
+.CollaboTravel{
+    display:flex;
+}
 footer{
-    width: 80%;
+    width: 100%;
     background-image: linear-gradient(white, grey);
-    margin: 75;
-    padding: 10%;
 }
 ul{
     display: inline-block;
