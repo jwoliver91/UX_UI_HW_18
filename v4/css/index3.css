@@ -94,8 +94,8 @@ li{
 .rectangle2{
     margin-left: 80%;
 }
-.rectangle3{
-    margin-left:-5%;
+.rectangle4{
+    margin-left:-220%;
 }
 .CollaboTravel{
     display:flex;
@@ -111,4 +111,9 @@ ul{
 }
 li{ 
     padding: 25px;
+}
+@media only screen and (max-width: 600){
+    flex-direction: column;
+    max-width: 100%;
+  
 }
